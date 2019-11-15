@@ -1,0 +1,2 @@
+# DynamsoftBarcodeReader
+SDK
