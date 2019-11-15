@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
 DynamsoftBarcodeReader SDK is dest !
                        DESC
 
-  s.homepage         = 'https://github.com/Tenocht1tlan/DynamsoftBarcodeReader'
+  s.homepage         = 'https://github.com/zyunique/DynamsoftBarcodeReader'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Tenocht1tlan' => '583524614@qq.com' }
-  s.source           = { :git => 'https://github.com/Tenocht1tlan/DynamsoftBarcodeReader.git', :tag => s.version.to_s }
+  s.author           = { 'zyunique' => '583524614@qq.com' }
+  s.source           = { :git => 'https://github.com/zyunique/DynamsoftBarcodeReader.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
