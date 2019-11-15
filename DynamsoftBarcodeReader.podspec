@@ -17,7 +17,7 @@ DynamsoftBarcodeReader SDK is dest !
 
   s.homepage         = 'https://github.com/zyunique/DynamsoftBarcodeReader'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zyunique' => '583524614@qq.com' }
+  s.author           = { 'zyunique' => '335454895@qq.com' }
   s.source           = { :git => 'https://github.com/zyunique/DynamsoftBarcodeReader.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
