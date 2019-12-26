@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D59C0EBC890568ADC25A06154C1DF3F7"
+               BuildableName = "DynamsoftBarcodeReader.framework"
+               BlueprintName = "DynamsoftBarcodeReader"
+               ReferencedContainer = "container:Pods/Pods.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
                BuildableName = "DynamsoftBarcodeReader_Example.app"
                BlueprintName = "DynamsoftBarcodeReader_Example"

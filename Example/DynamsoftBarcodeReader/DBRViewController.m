@@ -7,7 +7,7 @@
 //
 
 #import "DBRViewController.h"
-
+#import <DynamsoftBarcodeReader/DynamsoftBarcodeReader.h>
 @interface DBRViewController ()
 
 @end
@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    DynamsoftBarcodeReader *reader = [[DynamsoftBarcodeReader alloc] initWithLicense:@"key"];
+    iTextResult* res;
+    NSInteger a = EnumBarcodeFormat2NULL;
+    NSInteger b = a += 1;
+    res = nil;
+//    res = [reader decodeBuffer: withWidth: height: stride: format: templateName: error:nil];
 }
 
 - (void)didReceiveMemoryWarning

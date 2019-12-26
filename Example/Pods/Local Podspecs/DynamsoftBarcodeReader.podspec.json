@@ -1,22 +1,26 @@
 {
   "name": "DynamsoftBarcodeReader",
-  "version": "0.1.0",
-  "summary": "A short description of DynamsoftBarcodeReader.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "7.1.0",
+  "summary": "DynamsoftBarcodeReader SDK 7.1.0",
+  "description": "DynamsoftBarcodeReader SDK is dest !",
   "homepage": "https://github.com/zyunique/DynamsoftBarcodeReader",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zyunique": "583524614@qq.com"
+    "zyunique": "335454895@qq.com"
   },
   "source": {
     "git": "https://github.com/zyunique/DynamsoftBarcodeReader.git",
-    "tag": "0.1.0"
+    "tag": "7.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "DynamsoftBarcodeReader/Classes/**/*"
+  "source_files": [
+    "DynamsoftBarcodeReader.framework/**/*",
+    "DynamsoftBarcodeReader.framework/*"
+  ],
+  "public_header_files": "DynamsoftBarcodeReader.framework/Headers/*.h"
 }

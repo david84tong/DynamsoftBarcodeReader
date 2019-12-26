@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		0BDCC76EA0B7D06303CA65DEAD5E4540 /* Pods-DynamsoftBarcodeReader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 388079A8AE915A1194D5B5FC06336354 /* Pods-DynamsoftBarcodeReader_Tests-dummy.m */; };
 		1016A23B6CF2C754F70416994292EF72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		14AFBCC54B55F8FF4EA47344CEAB24E3 /* DynamsoftBarcodeReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D338C3EFD8CA3509F40EAE6A88D101ED /* DynamsoftBarcodeReader-dummy.m */; };
-		22694C7DE9E0EE2C64F499087B10DD11 /* DynamsoftBarcodeReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 732D2A9F9B3ABEDA2C90DF380F00C24F /* DynamsoftBarcodeReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26496AA229C784BF1666439C1FEF03BF /* DynamsoftBarcodeReader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5961356E85B3C41072D4DEC53EFC2AE9 /* DynamsoftBarcodeReader-dummy.m */; };
+		3A17D7845E2675F8D01C36CDD7F4BB3B /* DynamsoftBarcodeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = A057ADC60B4C7B30F456733FF7596147 /* DynamsoftBarcodeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E4457872ECE32AA3E91031A7FA4A68D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		60E1378442B28AA0C4B30130C04BFF54 /* DynamsoftBarcodeReader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B242BF4C0EE694C665C97BE68458D24 /* DynamsoftBarcodeReader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6710183166BFCF48984E554F2A128C83 /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = DF7AE5EA5F58664B8E7FE1DD1A892D06 /* module.modulemap */; };
 		872C4E467F0F524DAAFEAA621F754274 /* Pods-DynamsoftBarcodeReader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F564D711E8B736522CF2A57A7DB908D4 /* Pods-DynamsoftBarcodeReader_Example-dummy.m */; };
 		8CF2F8F596B8CC995C26920AA5DE653B /* Pods-DynamsoftBarcodeReader_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 291A3F1CDB60AA1EDA971BFB760C60BB /* Pods-DynamsoftBarcodeReader_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0690FB23E4174A19F5A0D1DDB5427D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AE61F9B891992F87BD111748B331A93E /* Pods-DynamsoftBarcodeReader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A09A4023EB2121707F50B5AE6B80197 /* Pods-DynamsoftBarcodeReader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E79FD564321C6E30DB4D1B9DCAC8CEC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B723F28420B86DA91D465306F6121660 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 1C5C61A246441D9F8408D9BC5B9A5A4F /* Info.plist */; };
+		DB2C9B2A438B6748A9F584AAC374CB9A /* DynamsoftBarcodeSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CB586CB90892E84FC5C6820BB0F9F8FD /* DynamsoftBarcodeSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2BC6534BBDDA253B16A0C8E89028BFC /* DynamsoftBarcodeReader in Sources */ = {isa = PBXBuildFile; fileRef = FDB13F83FC09CBE63D4CDA93D1848AE1 /* DynamsoftBarcodeReader */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BDE5F9FC69C5E5760589DEB1745E95E /* DynamsoftBarcodeReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamsoftBarcodeReader.modulemap; sourceTree = "<group>"; };
 		17F1DD166A617B44FF27247E71E51F87 /* Pods-DynamsoftBarcodeReader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamsoftBarcodeReader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C5C61A246441D9F8408D9BC5B9A5A4F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = DynamsoftBarcodeReader.framework/Info.plist; sourceTree = "<group>"; };
 		291A3F1CDB60AA1EDA971BFB760C60BB /* Pods-DynamsoftBarcodeReader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamsoftBarcodeReader_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2B242BF4C0EE694C665C97BE68458D24 /* DynamsoftBarcodeReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamsoftBarcodeReader-umbrella.h"; sourceTree = "<group>"; };
 		2E27C5F54467ADC55D599F9D7F6015D8 /* Pods-DynamsoftBarcodeReader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamsoftBarcodeReader_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		388079A8AE915A1194D5B5FC06336354 /* Pods-DynamsoftBarcodeReader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamsoftBarcodeReader_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -45,28 +53,30 @@
 		40955C296F718261F04B425B306890AA /* Pods-DynamsoftBarcodeReader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamsoftBarcodeReader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		40B83857B53BDF2E91F72E72BC0840FC /* Pods-DynamsoftBarcodeReader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamsoftBarcodeReader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		49085E429B76872283E108B96C2294E8 /* Pods-DynamsoftBarcodeReader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamsoftBarcodeReader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		501305659C41E4E40071E91122CA87A7 /* DynamsoftBarcodeReader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamsoftBarcodeReader.modulemap; sourceTree = "<group>"; };
 		5076C138DE7A502C3A2D648A394ADDCE /* Pods-DynamsoftBarcodeReader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DynamsoftBarcodeReader_Example.modulemap"; sourceTree = "<group>"; };
-		732D2A9F9B3ABEDA2C90DF380F00C24F /* DynamsoftBarcodeReader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamsoftBarcodeReader-umbrella.h"; sourceTree = "<group>"; };
+		5961356E85B3C41072D4DEC53EFC2AE9 /* DynamsoftBarcodeReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamsoftBarcodeReader-dummy.m"; sourceTree = "<group>"; };
+		5E35611FFBEB8357B440590B1C41B87A /* DynamsoftBarcodeReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamsoftBarcodeReader.xcconfig; sourceTree = "<group>"; };
+		6970EAB8F4E84BDFBE417936E765887E /* DynamsoftBarcodeReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamsoftBarcodeReader-prefix.pch"; sourceTree = "<group>"; };
 		87D8130280414236BBA7AC043DF8F8DC /* Pods-DynamsoftBarcodeReader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamsoftBarcodeReader_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9342490BF40EF29692DD50B0A6D81B97 /* DynamsoftBarcodeReader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamsoftBarcodeReader.xcconfig; sourceTree = "<group>"; };
-		944C06B1C9CDB98032536B27856DD4EF /* DynamsoftBarcodeReader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DynamsoftBarcodeReader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		965A50F87D85395BE652B768A0F4419A /* DynamsoftBarcodeReader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamsoftBarcodeReader-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A14D050D2FD70AFC483914B61E3BEDB6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A4F610049C096EA5EE5794F7939BBF96 /* Pods_DynamsoftBarcodeReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamsoftBarcodeReader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A057ADC60B4C7B30F456733FF7596147 /* DynamsoftBarcodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DynamsoftBarcodeReader.h; sourceTree = "<group>"; };
+		A4F610049C096EA5EE5794F7939BBF96 /* Pods_DynamsoftBarcodeReader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamsoftBarcodeReader_Tests.framework; path = "Pods-DynamsoftBarcodeReader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A926138D92014B723A945FD21F53AAA1 /* Pods-DynamsoftBarcodeReader_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamsoftBarcodeReader_Tests-Info.plist"; sourceTree = "<group>"; };
 		AA4C4EE179056478C899766B18676731 /* Pods-DynamsoftBarcodeReader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamsoftBarcodeReader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BFEED29F0B3B9E90AC25C9D85D9E88A4 /* Pods_DynamsoftBarcodeReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamsoftBarcodeReader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C69DD5DDFACFCA62862C97AF8B19AE3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		C6D85E232DFA5053E8B137E3C6FAB477 /* DynamsoftBarcodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamsoftBarcodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA87FCCF8F4927E309D5AA28F2990602 /* DynamsoftBarcodeReader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DynamsoftBarcodeReader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B8B36799B1767FC7A36DD440DC17D89C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BFEED29F0B3B9E90AC25C9D85D9E88A4 /* Pods_DynamsoftBarcodeReader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamsoftBarcodeReader_Example.framework; path = "Pods-DynamsoftBarcodeReader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6D85E232DFA5053E8B137E3C6FAB477 /* DynamsoftBarcodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamsoftBarcodeReader.framework; path = DynamsoftBarcodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB586CB90892E84FC5C6820BB0F9F8FD /* DynamsoftBarcodeSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DynamsoftBarcodeSDK.h; sourceTree = "<group>"; };
 		D21C7D7FFC38459FEE10A670CBB217E3 /* Pods-DynamsoftBarcodeReader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamsoftBarcodeReader_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D338C3EFD8CA3509F40EAE6A88D101ED /* DynamsoftBarcodeReader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamsoftBarcodeReader-dummy.m"; sourceTree = "<group>"; };
+		D32B858087FB78724DD207949D9C4055 /* DynamsoftBarcodeReader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamsoftBarcodeReader-Info.plist"; sourceTree = "<group>"; };
 		DEA51270FD317EF1FC10F89A581A0762 /* Pods-DynamsoftBarcodeReader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamsoftBarcodeReader_Example-Info.plist"; sourceTree = "<group>"; };
-		E29EE346577F0123CEB3D21D2CC89E63 /* DynamsoftBarcodeReader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamsoftBarcodeReader-Info.plist"; sourceTree = "<group>"; };
+		DF7AE5EA5F58664B8E7FE1DD1A892D06 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = module.modulemap; sourceTree = "<group>"; };
 		E48640A1887CA68874DE7C43C3BBC185 /* Pods-DynamsoftBarcodeReader_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DynamsoftBarcodeReader_Tests.modulemap"; sourceTree = "<group>"; };
 		E9678C6C8C92D06CDEE6F384920572AE /* Pods-DynamsoftBarcodeReader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamsoftBarcodeReader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D4880696D30B3AB0A24FCAB3D66719 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		F564D711E8B736522CF2A57A7DB908D4 /* Pods-DynamsoftBarcodeReader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamsoftBarcodeReader_Example-dummy.m"; sourceTree = "<group>"; };
+		FDB13F83FC09CBE63D4CDA93D1848AE1 /* DynamsoftBarcodeReader */ = {isa = PBXFileReference; includeInIndex = 1; name = DynamsoftBarcodeReader; path = DynamsoftBarcodeReader.framework/DynamsoftBarcodeReader; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,17 +96,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8010A1FB87685A86AC99BC70B40BB00 /* Frameworks */ = {
+		E57AED0E03058BB21FEE2BF22C0CEC2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79FD564321C6E30DB4D1B9DCAC8CEC3 /* Foundation.framework in Frameworks */,
+				9E0690FB23E4174A19F5A0D1DDB5427D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		265D38E6EB7C08266EF5BAE5E545527D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA87FCCF8F4927E309D5AA28F2990602 /* DynamsoftBarcodeReader.podspec */,
+				B8B36799B1767FC7A36DD440DC17D89C /* LICENSE */,
+				F0D4880696D30B3AB0A24FCAB3D66719 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		358B7F39458F567F13E0C478514A38C2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				DF7AE5EA5F58664B8E7FE1DD1A892D06 /* module.modulemap */,
+			);
+			name = Modules;
+			path = DynamsoftBarcodeReader.framework/Modules;
+			sourceTree = "<group>";
+		};
 		57A622B9A6ADA91FFA2A3997D2026F6D /* Pods-DynamsoftBarcodeReader_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +141,20 @@
 			);
 			name = "Pods-DynamsoftBarcodeReader_Example";
 			path = "Target Support Files/Pods-DynamsoftBarcodeReader_Example";
+			sourceTree = "<group>";
+		};
+		66C25D0EC4EB43C0EFDBB6C36B91BC1B /* DynamsoftBarcodeReader */ = {
+			isa = PBXGroup;
+			children = (
+				FDB13F83FC09CBE63D4CDA93D1848AE1 /* DynamsoftBarcodeReader */,
+				1C5C61A246441D9F8408D9BC5B9A5A4F /* Info.plist */,
+				D9C24F8FF506423B79676B10FF060B73 /* Headers */,
+				358B7F39458F567F13E0C478514A38C2 /* Modules */,
+				265D38E6EB7C08266EF5BAE5E545527D /* Pod */,
+				BCD48F4203D8DD5B7EBC179426E8721A /* Support Files */,
+			);
+			name = DynamsoftBarcodeReader;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A62F5C116BB3BB0063B8A245625F7799 /* Pods-DynamsoftBarcodeReader_Tests */ = {
@@ -130,12 +173,18 @@
 			path = "Target Support Files/Pods-DynamsoftBarcodeReader_Tests";
 			sourceTree = "<group>";
 		};
-		B2AE57F618004288C82BC038E7748ECB /* Development Pods */ = {
+		BCD48F4203D8DD5B7EBC179426E8721A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F74633819A9A847718EBC2E6F56EE862 /* DynamsoftBarcodeReader */,
+				0BDE5F9FC69C5E5760589DEB1745E95E /* DynamsoftBarcodeReader.modulemap */,
+				5E35611FFBEB8357B440590B1C41B87A /* DynamsoftBarcodeReader.xcconfig */,
+				5961356E85B3C41072D4DEC53EFC2AE9 /* DynamsoftBarcodeReader-dummy.m */,
+				D32B858087FB78724DD207949D9C4055 /* DynamsoftBarcodeReader-Info.plist */,
+				6970EAB8F4E84BDFBE417936E765887E /* DynamsoftBarcodeReader-prefix.pch */,
+				2B242BF4C0EE694C665C97BE68458D24 /* DynamsoftBarcodeReader-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DynamsoftBarcodeReader";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -146,25 +195,19 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C2D59E1075A2C81464E273014C2F951E /* Support Files */ = {
+		C6A144A29AD9E7BBC81A53659179E3B2 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				501305659C41E4E40071E91122CA87A7 /* DynamsoftBarcodeReader.modulemap */,
-				9342490BF40EF29692DD50B0A6D81B97 /* DynamsoftBarcodeReader.xcconfig */,
-				D338C3EFD8CA3509F40EAE6A88D101ED /* DynamsoftBarcodeReader-dummy.m */,
-				E29EE346577F0123CEB3D21D2CC89E63 /* DynamsoftBarcodeReader-Info.plist */,
-				965A50F87D85395BE652B768A0F4419A /* DynamsoftBarcodeReader-prefix.pch */,
-				732D2A9F9B3ABEDA2C90DF380F00C24F /* DynamsoftBarcodeReader-umbrella.h */,
+				66C25D0EC4EB43C0EFDBB6C36B91BC1B /* DynamsoftBarcodeReader */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DynamsoftBarcodeReader";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B2AE57F618004288C82BC038E7748ECB /* Development Pods */,
+				C6A144A29AD9E7BBC81A53659179E3B2 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F70E05094A9F537CB246578E646E67C1 /* Products */,
 				F0C49D3D133ED2F065FFD70C4C546F73 /* Targets Support Files */,
@@ -179,14 +222,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E5BB4F6E3BB6CA1A40D62897D0E9DA6A /* Pod */ = {
+		D9C24F8FF506423B79676B10FF060B73 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				944C06B1C9CDB98032536B27856DD4EF /* DynamsoftBarcodeReader.podspec */,
-				C69DD5DDFACFCA62862C97AF8B19AE3B /* LICENSE */,
-				A14D050D2FD70AFC483914B61E3BEDB6 /* README.md */,
+				A057ADC60B4C7B30F456733FF7596147 /* DynamsoftBarcodeReader.h */,
+				CB586CB90892E84FC5C6820BB0F9F8FD /* DynamsoftBarcodeSDK.h */,
 			);
-			name = Pod;
+			name = Headers;
+			path = DynamsoftBarcodeReader.framework/Headers;
 			sourceTree = "<group>";
 		};
 		F0C49D3D133ED2F065FFD70C4C546F73 /* Targets Support Files */ = {
@@ -208,16 +251,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F74633819A9A847718EBC2E6F56EE862 /* DynamsoftBarcodeReader */ = {
-			isa = PBXGroup;
-			children = (
-				E5BB4F6E3BB6CA1A40D62897D0E9DA6A /* Pod */,
-				C2D59E1075A2C81464E273014C2F951E /* Support Files */,
-			);
-			name = DynamsoftBarcodeReader;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -229,19 +262,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CB3C6625405B87F0D1D292126BAD3B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E1378442B28AA0C4B30130C04BFF54 /* DynamsoftBarcodeReader-umbrella.h in Headers */,
+				3A17D7845E2675F8D01C36CDD7F4BB3B /* DynamsoftBarcodeReader.h in Headers */,
+				DB2C9B2A438B6748A9F584AAC374CB9A /* DynamsoftBarcodeSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		890480FD90D03B8EF7B0C458F918DC8C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE61F9B891992F87BD111748B331A93E /* Pods-DynamsoftBarcodeReader_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8936BE9D30DF07CA6C41AEB2042BCE60 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				22694C7DE9E0EE2C64F499087B10DD11 /* DynamsoftBarcodeReader-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +304,12 @@
 		};
 		D59C0EBC890568ADC25A06154C1DF3F7 /* DynamsoftBarcodeReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 719B6C87C486657E96376C9606DA7F91 /* Build configuration list for PBXNativeTarget "DynamsoftBarcodeReader" */;
+			buildConfigurationList = 0C969D7EA158ADF96BF56D5CB53BBEE3 /* Build configuration list for PBXNativeTarget "DynamsoftBarcodeReader" */;
 			buildPhases = (
-				8936BE9D30DF07CA6C41AEB2042BCE60 /* Headers */,
-				A527D91A9ADF034B3ED5BAD617A23CD8 /* Sources */,
-				B8010A1FB87685A86AC99BC70B40BB00 /* Frameworks */,
-				2D5857A2EA0E76FDA77A4ECDFA0A4C37 /* Resources */,
+				5CB3C6625405B87F0D1D292126BAD3B9 /* Headers */,
+				9C8013023CB89C02C831017875985E07 /* Sources */,
+				E57AED0E03058BB21FEE2BF22C0CEC2F /* Frameworks */,
+				1A03EC28198B01F4172B1A73923F8177 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -333,7 +368,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D5857A2EA0E76FDA77A4ECDFA0A4C37 /* Resources */ = {
+		1A03EC28198B01F4172B1A73923F8177 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,11 +408,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A527D91A9ADF034B3ED5BAD617A23CD8 /* Sources */ = {
+		9C8013023CB89C02C831017875985E07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14AFBCC54B55F8FF4EA47344CEAB24E3 /* DynamsoftBarcodeReader-dummy.m in Sources */,
+				E2BC6534BBDDA253B16A0C8E89028BFC /* DynamsoftBarcodeReader in Sources */,
+				26496AA229C784BF1666439C1FEF03BF /* DynamsoftBarcodeReader-dummy.m in Sources */,
+				B723F28420B86DA91D465306F6121660 /* Info.plist in Sources */,
+				6710183166BFCF48984E554F2A128C83 /* module.modulemap in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +470,69 @@
 			};
 			name = Debug;
 		};
+		1A3C0AF5E16882115873C3D275B7A50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E35611FFBEB8357B440590B1C41B87A /* DynamsoftBarcodeReader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader.modulemap";
+				PRODUCT_MODULE_NAME = DynamsoftBarcodeReader;
+				PRODUCT_NAME = DynamsoftBarcodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32E8E69F4DCB915B8D2F1F4F49949152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E35611FFBEB8357B440590B1C41B87A /* DynamsoftBarcodeReader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader.modulemap";
+				PRODUCT_MODULE_NAME = DynamsoftBarcodeReader;
+				PRODUCT_NAME = DynamsoftBarcodeReader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -485,7 +586,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -623,37 +725,6 @@
 			};
 			name = Release;
 		};
-		EA773DBC1A13286B6F6DDF928CB3893F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9342490BF40EF29692DD50B0A6D81B97 /* DynamsoftBarcodeReader.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader.modulemap";
-				PRODUCT_MODULE_NAME = DynamsoftBarcodeReader;
-				PRODUCT_NAME = DynamsoftBarcodeReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		EDCB3251B19CA065204F0FF9A5D2CE77 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40955C296F718261F04B425B306890AA /* Pods-DynamsoftBarcodeReader_Example.debug.xcconfig */;
@@ -687,41 +758,18 @@
 			};
 			name = Debug;
 		};
-		F4A8BB04F32473F5F2CFE9535C5ECE6E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9342490BF40EF29692DD50B0A6D81B97 /* DynamsoftBarcodeReader.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DynamsoftBarcodeReader/DynamsoftBarcodeReader.modulemap";
-				PRODUCT_MODULE_NAME = DynamsoftBarcodeReader;
-				PRODUCT_NAME = DynamsoftBarcodeReader;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C969D7EA158ADF96BF56D5CB53BBEE3 /* Build configuration list for PBXNativeTarget "DynamsoftBarcodeReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3C0AF5E16882115873C3D275B7A50D /* Debug */,
+				32E8E69F4DCB915B8D2F1F4F49949152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		36DA14811D5013C944DA25336CB75382 /* Build configuration list for PBXNativeTarget "Pods-DynamsoftBarcodeReader_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -745,15 +793,6 @@
 			buildConfigurations = (
 				EDCB3251B19CA065204F0FF9A5D2CE77 /* Debug */,
 				D4FC4627155D48627AB8985FC93E3D38 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		719B6C87C486657E96376C9606DA7F91 /* Build configuration list for PBXNativeTarget "DynamsoftBarcodeReader" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA773DBC1A13286B6F6DDF928CB3893F /* Debug */,
-				F4A8BB04F32473F5F2CFE9535C5ECE6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

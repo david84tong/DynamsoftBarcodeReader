@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "DynamsoftBarcodeReader.h"
+#import "DynamsoftBarcodeSDK.h"
 
 FOUNDATION_EXPORT double DynamsoftBarcodeReaderVersionNumber;
 FOUNDATION_EXPORT const unsigned char DynamsoftBarcodeReaderVersionString[];

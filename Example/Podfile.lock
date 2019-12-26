@@ -1,5 +1,5 @@
 PODS:
-  - DynamsoftBarcodeReader (0.1.0)
+  - DynamsoftBarcodeReader (7.1.0)
 
 DEPENDENCIES:
   - DynamsoftBarcodeReader (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DynamsoftBarcodeReader: 4337d0a7486af052f5562062ff26dc34c5f1c1a1
+  DynamsoftBarcodeReader: 12c7614b65ade07888cc56e017948f2578e29af7
 
 PODFILE CHECKSUM: bcf814c949e1bcb1a4a4a6baf42041f197a6116c
 
