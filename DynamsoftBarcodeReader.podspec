@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DynamsoftBarcodeReader'
-  s.version          = '7.4.0'
-  s.summary          = 'DynamsoftBarcodeReader SDK 7.4.0'
+  s.version          = '7.4.0.1'
+  s.summary          = 'DynamsoftBarcodeReader SDK 7.4.0.1'
 
   s.description      = <<-DESC
 DynamsoftBarcodeReader SDK is dest !

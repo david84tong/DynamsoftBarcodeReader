@@ -1,2 +1,2 @@
 # DynamsoftBarcodeReader
-SDK
+Dynamsoft Barcode Reader iOS SDK
